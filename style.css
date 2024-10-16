@@ -17,6 +17,7 @@ body{
     padding-inline: 64px;
     font-family: "Righteous", sans-serif;
 }
+
 a{
     text-decoration: none;
     color: inherit;
@@ -108,4 +109,62 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 75vh;
+}
+
+@media (max-width:960px){
+    main{
+        justify-content: space-between;
+    }
+    .title span{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .container div{
+        width: 80%;
+    }
+    .description h2{
+        font-size: 8vw;
+    }
+    .description p{
+        font-size: 3vw;
+        width: 100%;
+    }
+    .action{
+        justify-content: center;
+    }
+    footer{
+        display: none;
+    }
+    .pikachu-image{
+        height: 50vh;
+    }
+}
+
+@media (max-width:375px){
+    header div{
+        display: none;
+    }  
+    body{
+        padding: 0;
+    }
+    .container{
+        width: 100%;
+    }
+    .container p{
+        display: none;
+    }
+    .description h2{
+        width: 100%;
+    }
+    .container a{
+        font-size: 32px;
+    }
+    .action{
+        width: 100%;
+    }
 }
