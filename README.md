@@ -15,6 +15,5 @@ Site do tipo lading page para divulgar o jogo Let's Go Pikacu. O intuito desse p
 
 ---
 ## Autor
-
 - [Vinícius José - Profissional na área de DS ](https://github.com/Vyneelric)# pikachu-resposivo
-# pikachu-resposivo
+
